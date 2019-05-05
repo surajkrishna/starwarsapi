@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=0e4157c7-2a10-498d-a991-de285934c097");
+
+.App {
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/ix-trailer-desktop-new_4504dc7d.jpeg?region=0,0,2000,690&width=1920");
+  width: 100vw;
+  background-repeat: repeat-y;
+  min-height: 700px;
+  height: 100%;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+.card {
+  font-weight: bold;
+  width: 8rem;
+  height: 4rem;
+  background: #282727;
+  border-radius: 9px;
+  color: #9e4f60;
+  font-family: DIN, arial;
+  margin: 1rem;
+  box-shadow: 2px 2px 5px red;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.card-sw {
+  width: 20%;
+  min-height: 12rem;
+  background-color: #dedede;
+}
+
+.scrollBox {
+  width: 80%;
+  margin: 12rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 3px solid red;
+}
+
+.scrollBox div {
+  margin: 1rem;
+  border-radius: 10px;
+}
